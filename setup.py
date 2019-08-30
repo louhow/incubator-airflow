@@ -116,7 +116,8 @@ async = [
 ]
 celery = [
     'celery>=3.1.17',
-    'flower>=0.7.3'
+    'flower>=0.7.3',
+    'kombu==4.6.3'
 ]
 cgroups = [
     'cgroupspy>=0.1.4',
